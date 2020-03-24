@@ -1,25 +1,71 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import './style.css';
+
+// future steps:
+// 1. replace Nav with Nav component
+// 2. establish working react router
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <>
+    <nav className="nav nav-tabs nav-fill header-color">
+      <a className="navbar-brand brand-text" href="index.html">Kevin Salamon</a>
+      <a className="nav-item nav-link header-text" href="index.html">About Me</a>
+      <a className="nav-item nav-link header-text" href="portfolio.html">My Portfolio</a>
+    </nav>
+
+    <div className="jumbotron" id="jumbotron-main">
+      <h1 className="display-4" style={{textAlign: "center", paddingTop:"10%"}}>Kevin Scott Salamon</h1>
+      <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
     </div>
+
+    <div className="container">
+    <div className="row">
+      <div className="col-sm-12 text-center intro-index">
+        An up-and-coming Full-Stack Wev Developer
+      </div>
+    </div>
+    <div className="row mb-5">
+      <div className="col-sm-4">
+        <p className="mt-5 sub-intro-index">WHO ARE YOU?</p>
+        <p className="content-text">Hi there - I'm a full-stack web developer who specializes in Javascript, and has a background in JQuery, Node.JS, Bootstrap, and more.
+          I've studied political science and worked for political campaigns, have experience in law offices, and even did a stint as a pool boy. Now, I'm working to develop
+          streamlined, functional, and modern looking websites. Please see below for my full resume, and feel free to peruse my portfolio of works or reach out to me for more info.
+        </p>
+      </div>
+      <div className="col-sm-4 text-right">
+      </div>
+      <div className="col-sm-4" style={{paddingLeft:"5%", marginBottom:"30px"}}>
+        <p className="mt-5 sub-intro-index">MY INFO</p>
+        <p className="sub-sub-intro-index">Name</p>
+        <p className="content-text">Kevin Salamon</p>
+        <p className="sub-sub-intro-index">Location</p>
+        <p className="content-text">Long Valley, NJ, USA</p>
+        <p className="sub-sub-intro-index">How can I best reach you?</p>
+        <p className="content-text">Reach out to me by e-mail at <u>theksalamon@gmail.com</u></p>
+      </div>
+    </div>
+  </div> 
+  <footer className="footer">
+    <div className="container">
+      <div className="row">
+        <div className="col-sm-12 footer-main text-center" style={{marginTop:"8%"}}>
+          Contact Me
+        </div>
+      </div>
+      <div className="row footer-sub">
+        <div className="col-sm-6">
+          <a href="https://www.linkedin.com/in/kevin-salamon-8353a5b5/" target="#"><p className="footer-content m-5">LinkedIn</p></a>
+          <a href="https://github.com/kevin-salamon" target="#"><p className="footer-content m-5">GitHub</p></a>
+        </div>
+        <div class="col-sm-6">
+          <a href="https://www.facebook.com/kevin.salamon" target="#"><p className="footer-content m-5">Facebook</p></a>
+          <p className="footer-content m-5"><u>theksalamon@gmail.com</u></p>
+        </div>
+      </div>
+    </div>
+  </footer> 
+    </>
   );
 }
 
