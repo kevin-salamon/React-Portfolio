@@ -51,34 +51,20 @@ a:active {
 }
 
 .jumbotron-portfolio {
-    height: 450px;
-    color: white;
+    height: 400px;
+    color: black;
     font-family: 'Roboto Mono', monospace;
-    text-shadow: 2px 2px black;
-    border: 4px solid black;
+    text-shadow: 1px 1px gray;
+    border: 3px solid black;
+    margin: 3%;
+    background-color: white;
 }
 
- #slot1 {
-    background-image: url("./assets/images/tablemanager.jpg");
-}
-
-#slot2 {
-    background-image: url("./assets/images/gamefound.jpg");
-}
-
-#slot3 {
-    background-image: url("./assets/images/teamgenerator.jpg");
-}
-
-#slot4 {
-    background-image: url("./assets/images/sql.jpg");
-}
-
-#slot5 {
-    background-image: url("./assets/images/burger.jpg");
-}
-
-#slot6 {
+.split-image {
+    height: 100%;
+    width: 100%;
+    margin-left: -3.5%;
+    border-right: 3px solid black;
 
 }
 

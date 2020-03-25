@@ -2,11 +2,9 @@ import React from 'react';
 import './style.css';
 
 // future steps:
-// 1. replace Nav with Nav component [DONE]
-// 2. establish working react router
-// 3. make profile image load for intro section in index page
 // 4. create working portfolio component which will need to use hooks etc. to render a new project each time (x6)
 // 5. make portfolio page
+// 6. Add Footer component
 
 function App() {
   return (
@@ -25,7 +23,7 @@ function App() {
     <div className="row mb-5">
       <div className="col-sm-4">
         <p className="mt-5 sub-intro-index">WHO ARE YOU?</p>
-        <p className="content-text">Hi there - I'm a full-stack web developer who specializes in Javascript, and has a background in React, NodeJS, Bootstrap, and more.
+        <p className="content-text">Hi there - I'm a full-stack web developer who specializes in Javascript, and has a background in React, NodeJS, MongoDB, Bootstrap, and more.
           I've studied political science and worked for political campaigns, have experience in law offices, and even did a stint as a pool boy. Now, I'm working to develop
           streamlined, functional, and modern-looking web applications. Please see below for my full resume, and feel free to peruse my portfolio of works or reach out to me for more info.
         </p>
