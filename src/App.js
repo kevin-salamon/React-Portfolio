@@ -1,19 +1,23 @@
 import React from 'react';
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import './style.css';
+import Header from "./components/Header.js";
+import Portfolio from "./portfolio";
 
 // future steps:
-// 1. replace Nav with Nav component
+// 1. replace Nav with Nav component [DONE]
 // 2. establish working react router
+// 3. make profile image load for intro section in index page
+// 4. create working portfolio component which will need to use hooks etc. to render a new project each time (x6)
+// 5. make portfolio page
 
 function App() {
   return (
     <>
-    <nav className="nav nav-tabs nav-fill header-color">
-      <a className="navbar-brand brand-text" href="index.html">Kevin Salamon</a>
-      <a className="nav-item nav-link header-text" href="index.html">About Me</a>
-      <a className="nav-item nav-link header-text" href="portfolio.html">My Portfolio</a>
-    </nav>
-
+    <Router>
+      <Header />
+      <Route exact path="/portfolio" component={Portfolio} />
+    </Router>
     <div className="jumbotron" id="jumbotron-main">
       <h1 className="display-4" style={{textAlign: "center", paddingTop:"10%"}}>Kevin Scott Salamon</h1>
       <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
@@ -28,12 +32,13 @@ function App() {
     <div className="row mb-5">
       <div className="col-sm-4">
         <p className="mt-5 sub-intro-index">WHO ARE YOU?</p>
-        <p className="content-text">Hi there - I'm a full-stack web developer who specializes in Javascript, and has a background in JQuery, Node.JS, Bootstrap, and more.
+        <p className="content-text">Hi there - I'm a full-stack web developer who specializes in Javascript, and has a background in React, NodeJS, Bootstrap, and more.
           I've studied political science and worked for political campaigns, have experience in law offices, and even did a stint as a pool boy. Now, I'm working to develop
-          streamlined, functional, and modern looking websites. Please see below for my full resume, and feel free to peruse my portfolio of works or reach out to me for more info.
+          streamlined, functional, and modern-looking web applications. Please see below for my full resume, and feel free to peruse my portfolio of works or reach out to me for more info.
         </p>
       </div>
       <div className="col-sm-4 text-right">
+        <img src={require("./assets/images/profile.jpg")} className="align-self-center mt-5 mb-1 mr-2 ml-2 rounded-pill image-large hide-small" alt={"profile"} />
       </div>
       <div className="col-sm-4" style={{paddingLeft:"5%", marginBottom:"30px"}}>
         <p className="mt-5 sub-intro-index">MY INFO</p>
@@ -59,7 +64,7 @@ function App() {
           <a href="https://github.com/kevin-salamon" target="#"><p className="footer-content m-5">GitHub</p></a>
         </div>
         <div class="col-sm-6">
-          <a href="https://www.facebook.com/kevin.salamon" target="#"><p className="footer-content m-5">Facebook</p></a>
+          <p className="footer-content m-5">1-908-310-2027</p>
           <p className="footer-content m-5"><u>theksalamon@gmail.com</u></p>
         </div>
       </div>
