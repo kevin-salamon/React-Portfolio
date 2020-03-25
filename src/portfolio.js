@@ -1,17 +1,9 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import './style.css';
-import Header from "./components/Header.js";
-import App from "./App";
 
 function Portfolio() {
     return (  
       <>
-      <Router>
-        <Header />
-        <Route exact path="/" component={App} />
-      </Router>
-
       <div ClassName="jumbotron jumbotron-portfolio mt-3" style={{height:"200px", backgroundColor: "purple", border:" 8px solid black"}}>
         <h1 ClassName="display-4" style={{textAlign: "center", color: "white"}}>My Portfolio</h1>
       </div>

@@ -4,25 +4,17 @@ import { Link, useLocation } from "react-router-dom";
 
 function Header() {
 
-  const location = useLocation();
-
   return (
     <nav className="nav nav-tabs nav-fill header-color">
-      <a className="navbar-brand brand-text" href="index.html">
-        <Link to="/" className={"nav-link active"}>
+        <Link to="/" className={"navbar-brand brand-text"}>
           Kevin Salamon
         </Link>
-      </a>
-      <a className="nav-item nav-link header-text" href="index.html">
-        <Link to="/" className={"nav-link active"}>
+        <Link to="/" className={"nav-item nav-link header-text"}>
           About Me
         </Link>
-      </a>
-      <a className="nav-item nav-link header-text" href="portfolio.html">
-        <Link to="/portfolio" className={"nav-link active"}>
+        <Link to="/portfolio" className={"nav-item nav-link header-text"}>
           My Portfolio
         </Link>
-      </a>
     </nav>
   );
 };

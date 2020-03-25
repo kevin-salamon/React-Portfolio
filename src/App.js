@@ -1,8 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route } from "react-router-dom";
 import './style.css';
-import Header from "./components/Header.js";
-import Portfolio from "./portfolio";
 
 // future steps:
 // 1. replace Nav with Nav component [DONE]
@@ -14,10 +11,6 @@ import Portfolio from "./portfolio";
 function App() {
   return (
     <>
-    <Router>
-      <Header />
-      <Route exact path="/portfolio" component={Portfolio} />
-    </Router>
     <div className="jumbotron" id="jumbotron-main">
       <h1 className="display-4" style={{textAlign: "center", paddingTop:"10%"}}>Kevin Scott Salamon</h1>
       <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
