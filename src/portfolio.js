@@ -7,7 +7,7 @@ function Portfolio() {
       <>
       <div className="container">
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/tablemanager.jpg")}
           alt={"tablemanager"}
           name={"Table Manager"}
           desc={"A simple, streamlined, and user-friendly application that allows restaurant owners and staff to build their custom restaurant layout from scratch, assign customers to tables, and track those customers' meals from start to finish. Uses Sequelize and Express."}
@@ -15,7 +15,7 @@ function Portfolio() {
           deployed={"https://mighty-ridge-50016.herokuapp.com/"}
         />
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/gamefound.jpg")}
           alt={"gamefound"}
           name={"GameFound"}
           desc={"An application that makes full use of the RAWG Database API to sort through 350,000+ games and return the perfect video game for you, based on your criteria."}
@@ -23,7 +23,7 @@ function Portfolio() {
           deployed={"https://kevin-salamon.github.io/Game-Found/"}
         />
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/budget.jpg")}
           alt={"budget-tracker"}
           name={"Budget Tracker"}
           desc={"An application utilizing local storage DBs to track budgets whether online or offline, through the use of MongoDB/Mongoose and IndexedDB."}
@@ -31,7 +31,7 @@ function Portfolio() {
           deployed={"https://boiling-depths-85608.herokuapp.com/"}
         />
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/burger.jpg")}
           alt={"burger"}
           name={"Eat-Da-Burger / MVC"}
           desc={"An app testing the utility of the MVC and Handlebars in web development, via the creation of a burger-eating and tracking program."}
@@ -39,7 +39,7 @@ function Portfolio() {
           deployed={"https://salty-bastion-59011.herokuapp.com/"}
         />
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/directory.png")}
           alt={"employee-tracker"}
           name={"Employee Directory"}
           desc={"A test of ReactJS capabilities through the creation of a sample Employee Directory. Sort and filter through the directory to find the information you need."}
@@ -47,7 +47,7 @@ function Portfolio() {
           deployed={"https://kevin-salamon.github.io/Employee-Directory/"}
         />
         <Project 
-          imgSource={"../assets/images/tablemanager.jpg"}
+          imgSource={require("./assets/images/quiz.png")}
           alt={"quiz"}
           name={"Javascript Quiz"}
           desc={"A dynamically-created Javascript Quiz that will test your knowledge of the language and allow you to store and display high scores. This application was created as a test of DOM-manipulation."}

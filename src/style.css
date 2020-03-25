@@ -51,7 +51,7 @@ a:active {
 }
 
 .jumbotron-portfolio {
-    height: 400px;
+    height: 10%;
     color: black;
     font-family: 'Roboto Mono', monospace;
     text-shadow: 1px 1px gray;
@@ -63,9 +63,7 @@ a:active {
 .split-image {
     height: 100%;
     width: 100%;
-    margin-left: -3.5%;
-    border-right: 3px solid black;
-
+    padding-bottom: 2.5%;
 }
 
 .intro-index {
