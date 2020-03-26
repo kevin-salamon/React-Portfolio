@@ -211,6 +211,10 @@ a:active {
     .hide-small{
         display: none;
     }
+
+    .true-footer {
+        font-size: 11px;
+    }
   }
  
   @media screen and (max-width: 992px) {
