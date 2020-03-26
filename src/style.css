@@ -141,7 +141,21 @@ a:active {
     width: 100%;
     color: white;
     text-align: center;
-  }
+}
+
+.true-footer {
+    position: fixed;
+    bottom: 0;
+    border-top: 2px solid black;
+    text-align: center;
+    background-color: purple;
+    height: 3%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bolder;
+}
 
 .footer-main {
     color: white;

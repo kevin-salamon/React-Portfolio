@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import Project from "./components/Project";
+import Footer from "./components/Footer";
 
 function Portfolio() {
     return (  
@@ -55,6 +56,7 @@ function Portfolio() {
           deployed={"https://kevin-salamon.github.io/Kevin-Coding-Quiz/"}
         />
       </div>
+      <Footer/>
       </>
     );
 }

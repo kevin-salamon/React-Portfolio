@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import Footer from "./components/Footer";
 
 // future steps:
 // 4. create working portfolio component which will need to use hooks etc. to render a new project each time (x6)
@@ -60,8 +61,9 @@ function App() {
         </div>
       </div>
     </div>
-  </footer> 
-    </>
+  </footer>
+  <Footer /> 
+  </>
   );
 }
 
