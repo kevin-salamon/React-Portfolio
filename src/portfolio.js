@@ -50,11 +50,20 @@ function Portfolio() {
         <Project 
           imgSource={require("./assets/images/quiz.png")}
           alt={"quiz"}
-          name={"Javascript Quiz"}
+          name={"JS Quiz"}
           desc={"A dynamically-created Javascript Quiz that will test your knowledge of the language and allow you to store and display high scores. This application was created as a test of DOM-manipulation."}
           github={"https://github.com/kevin-salamon/Employee-Directory"}
           deployed={"https://kevin-salamon.github.io/Kevin-Coding-Quiz/"}
         />
+        <Project 
+          imgSource={require("./assets/images/book.png")}
+          alt={"books"}
+          name={"React Book Search"}
+          desc={"Created as a means to test MERN collaboration, this application utilizes the Google Books API to allow the user to search for books of their choosing and save same into MongoDB."}
+          github={"https://github.com/kevin-salamon/Book-Search"}
+          deployed={"https://secret-fjord-12452.herokuapp.com/"}
+        />
+        <div className="m-5 endpoint"></div>
       </div>
       <Footer/>
       </>

@@ -1,3 +1,8 @@
+.endpoint {
+    height: 10px;
+    width: 100%;
+}
+
 a:link {
     color: white;
 }
