@@ -8,12 +8,12 @@ function Portfolio() {
       <>
       <div className="container">
         <Project 
-          imgSource={require("./assets/images/tablemanager.jpg")}
-          alt={"tablemanager"}
-          name={"Table Manager"}
-          desc={"A simple, streamlined, and user-friendly application that allows restaurant owners and staff to build their custom restaurant layout from scratch, assign customers to tables, and track those customers' meals from start to finish. Uses Sequelize and Express."}
-          github={"https://github.com/Chih-Chien-Lin/TableManager"}
-          deployed={"https://mighty-ridge-50016.herokuapp.com/"}
+          imgSource={require("./assets/images/tablify.png")}
+          alt={"tablify"}
+          name={"Tablify"}
+          desc={"A simple, streamlined, and user-friendly web application that allows restaurant owners and staff to build their custom restaurant layout from scratch, assign customers to tables, and track those customers' meals from start to finish. Uses the MERN stack."}
+          github={"https://github.com/kimiadarden/Tablify"}
+          deployed={"https://guarded-stream-41487.herokuapp.com/"}
         />
         <Project 
           imgSource={require("./assets/images/gamefound.jpg")}

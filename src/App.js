@@ -2,11 +2,6 @@ import React from 'react';
 import './style.css';
 import Footer from "./components/Footer";
 
-// future steps:
-// 4. create working portfolio component which will need to use hooks etc. to render a new project each time (x6)
-// 5. make portfolio page
-// 6. Add Footer component
-
 function App() {
   return (
     <>
@@ -18,7 +13,7 @@ function App() {
     <div className="container">
     <div className="row">
       <div className="col-sm-12 text-center intro-index">
-        An up-and-coming Full-Stack Wev Developer
+        An up-and-coming Full-Stack Web Developer
       </div>
     </div>
     <div className="row mb-5">

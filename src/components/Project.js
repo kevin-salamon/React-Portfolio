@@ -12,9 +12,9 @@ function Project(props) {
                 <h1>{props.name}</h1>
                 <p>{props.desc}</p>
                 <p>___________</p>
-                <a href={props.github} target="#">Github</a>
+                <a href={props.github} target="#" style={{color: "black"}}>Github</a>
                 <p>___________</p>
-                <a href={props.deployed} target="#">Deployed Site</a>
+                <a href={props.deployed} target="#" style={{color: "black"}}>Deployed Site</a>
                 <p>___________</p>
             </div>
         </div>
