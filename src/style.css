@@ -30,7 +30,8 @@ a:active {
 }
 
 .header-color {
-    background-color: purple;
+    background-color: rgb(73, 73, 73);
+    border-bottom: 2px solid white;
 }
 
 .header-text, .brand-text {
@@ -48,11 +49,15 @@ a:active {
 }
 
 #jumbotron-main {
-    background-image: url("./assets/images/family.jpg");
+    background-image: url("./assets/images/prof.jpg");
     height: 900px;
     color: white;
     font-family: 'Roboto Mono', monospace;
     text-shadow: 3px 3px black;
+}
+
+.responsive-header {
+    padding-top: 5%;
 }
 
 .jumbotron-portfolio {
@@ -94,7 +99,7 @@ a:active {
     margin-left: 20px;
     padding-left: 20px;
     padding-right: 20px;
-    border: 2px solid white;
+    text-decoration: underline;
 }
 
 .section-text {
@@ -142,30 +147,33 @@ a:active {
 .footer {
     text-align: center;
     background-color: purple;
-    height: 500px;
     width: 100%;
     color: white;
     text-align: center;
+    padding-bottom: 5%;
 }
 
 .true-footer {
     position: fixed;
     bottom: 0;
-    border-top: 2px solid black;
+    border-top: 2px solid white;
     text-align: center;
-    background-color: purple;
+    background-color: rgb(73, 73, 73);
     height: 5%;
     width: 100%;
     color: white;
     text-align: center;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
+    padding: 0.5%;
 }
 
 .footer-main {
     color: white;
-    font-size:44px;
+    font-size: 44px;
     font-family: 'Roboto Mono', monospace;
+    text-shadow: 2px 2px black;
+    padding-bottom: 1%;
 }
 
 .footer-sub {
@@ -173,16 +181,14 @@ a:active {
     border-bottom: 1px solid white;
     color: white;
     font-family: 'Roboto Mono', monospace;
-    font-size: 20px;    
+    font-size: 18px;
+    text-shadow: 1px 1px black;
 }
 
 .footer-content {
     color: white;
     transition: all 0.70s ease;
-}
-
-.footer-content:hover {
-    font-size:22px;
+    padding: 3%;
 }
 
 
@@ -212,6 +218,13 @@ a:active {
 
   }
 
+  @media screen and (max-width: 576px) {
+      .center-small {
+          text-align: center;
+      }
+
+  }
+
   @media screen and (max-width: 768px) {
     .hide-small{
         display: none;
@@ -219,6 +232,10 @@ a:active {
 
     .true-footer {
         font-size: 11px;
+    }
+
+    .footer {
+        padding-bottom: 10%;
     }
   }
  
@@ -236,5 +253,13 @@ a:active {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+    }
+
+    .responsive-header {
+        padding-top: 25%;
+    }
+
+    #jumbotron-main {
+        height: 750px;
     }
   }
