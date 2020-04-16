@@ -6,7 +6,7 @@ import Footer from "./components/Footer";
 function Portfolio() {
     return (  
       <>
-      <div className="container">
+      <div className="flex-container">
         <Project 
           imgSource={require("./assets/images/tablify.png")}
           alt={"tablify"}
@@ -63,8 +63,8 @@ function Portfolio() {
           github={"https://github.com/kevin-salamon/Book-Search"}
           deployed={"https://secret-fjord-12452.herokuapp.com/"}
         />
+        </div>
         <div className="m-5 endpoint"></div>
-      </div>
       <Footer/>
       </>
     );
