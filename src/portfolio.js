@@ -55,7 +55,8 @@ function Portfolio() {
           github={"https://github.com/kevin-salamon/Employee-Directory"}
           deployed={"https://kevin-salamon.github.io/Kevin-Coding-Quiz/"}
         />
-        <Project 
+        <Project
+          margin={"5"} 
           imgSource={require("./assets/images/book.png")}
           alt={"books"}
           name={"React Book Search"}
@@ -64,7 +65,6 @@ function Portfolio() {
           deployed={"https://secret-fjord-12452.herokuapp.com/"}
         />
         </div>
-        <div className="m-5 endpoint"></div>
       <Footer/>
       </>
     );

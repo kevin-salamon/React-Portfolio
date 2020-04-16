@@ -4,7 +4,7 @@ import '../style.css';
 function Project(props) {
 
     return (
-        <div className="container" style={{width: "900px", margin: "1%"}}>
+        <div className="container" style={{width: "850px", margin: "1%", marginBottom: props.margin + "%"}}>
             <div className="row jumbotron-portfolio rounded pt-3">
                 <div className="col-sm-6">
                     <img src={props.imgSource} alt={props.alt} className="split-image rounded"/>

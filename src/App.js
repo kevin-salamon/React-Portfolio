@@ -10,7 +10,7 @@ function App() {
       <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
     </div>
 
-    <div className="container">
+    <div className="container rounded" style={{backgroundColor: "white"}}>
     <div className="row">
       <div className="col-sm-12 text-center intro-index">
         An up-and-coming Full-Stack Web Developer
