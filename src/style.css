@@ -24,15 +24,52 @@ a:active {
     background-color: #F5FFFF
 }
 
-.header-color {
-    background-color: rgb(73, 73, 73);
-    border-bottom: 2px solid white;
+.header-custom {
+    background-color: white;
+    border-bottom: 1px solid silver;
+    align-items: center;
+    padding: 1%;
 }
 
-.header-text, .brand-text {
-    font-family: 'Libre Baskerville', serif;
+.brand-text {
+    text-decoration: none;
+    font-family: 'Lusitana', serif;
+    font-size: 2.5em;
+    letter-spacing: 0.01em;
+    text-shadow: -1px 0 silver, 0 1px silver, 1px 0 silver, 0 -1px silver;
+    margin-left: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-right: 0.5%;
+}
+
+.subbrand-box {
+    margin-right: 5%;
+}
+
+.subbrand-text {
+    font-family: 'Caveat', cursive;
+    font-size: 1.4em;
+    letter-spacing: 0.01em;
+    color: gray;
+}
+
+.link-box {
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.header-button {
+    font-family: cursive;
+    font-size: 1.25em;
+    letter-spacing: 0.1em;
     font-weight: bolder;
-    color: white;
+    width: 200px;
+    border-radius: 10px;
+    background-color: transparent;
+    border: 3px solid black;
+    color: black;
+    font-family: 'Lusitana', serif;
 }
 
 .subheader-text {
@@ -90,13 +127,6 @@ a:active {
     font-family: 'Permanent Marker', cursive;
 }
 
-.brand-text {
-    margin-left: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-    text-decoration: underline;
-}
-
 .section-text {
     font-family: 'Playfair Display', serif;
     font-weight: bold;
@@ -151,12 +181,12 @@ a:active {
 .true-footer {
     position: fixed;
     bottom: 0;
-    border-top: 2px solid white;
+    border-top: 2px solid black;
     text-align: center;
-    background-color: rgb(73, 73, 73);
+    background-color: white;
     height: 5%;
     width: 100%;
-    color: white;
+    color: black;
     text-align: center;
     font-family: 'Roboto Mono', monospace;
     font-weight: bolder;
@@ -225,12 +255,26 @@ a:active {
 
   }
 
+  @media screen and (max-width: 425px) {
+    .header-button {
+        width: 300px;
+        margin-top: 1%;
+        margin-bottom: 1%;
+    }
+}
+
   @media screen and (max-width: 576px) {
       .center-small {
           text-align: center;
       }
-
   }
+
+  @media screen and (max-width: 666px) {
+    .subbrand-text {
+        text-decoration: underline;
+        margin-bottom: 4%;
+    }
+}
 
   @media screen and (max-width: 768px) {
     .hide-small{
@@ -252,6 +296,12 @@ a:active {
         -o-background-size: cover;
         background-size: cover;
     }
+  }
+
+  @media screen and (max-width: 835px) {
+    .header-custom {
+        justify-content: center;
+      }
   }
  
   @media screen and (max-width: 992px) {

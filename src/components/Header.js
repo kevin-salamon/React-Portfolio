@@ -5,15 +5,20 @@ import { Link } from "react-router-dom";
 function Header() {
 
   return (
-    <nav className="nav nav-fill header-color">
-        <Link to="/" className={"navbar-brand brand-text"}>
+    <nav className="nav header-custom">
+        <div className="brand-text">
           Kevin Salamon
+        </div>
+        <div className="subbrand-box">
+          <div className="subbrand-text">
+            Web Developer / Software Engineer
+          </div>
+        </div>
+        <Link to="/" className="link-box">
+          <button className="header-button">About Me</button>
         </Link>
-        <Link to="/" className={"nav-item nav-link header-text"} style={{borderRight: "2px solid white", borderLeft: "2px solid white"}}>
-          About Me
-        </Link>
-        <Link to="/portfolio" className={"nav-item nav-link header-text"}>
-          My Portfolio
+        <Link to="/portfolio" className="link-box">
+          <button className="header-button">Portfolio</button>
         </Link>
     </nav>
   );
