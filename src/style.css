@@ -26,7 +26,7 @@ a:active {
 
 .header-custom {
     background-color: white;
-    border-bottom: 1px solid silver;
+    border-bottom: 1px solid black;
     align-items: center;
     padding: 1%;
 }
@@ -64,12 +64,30 @@ a:active {
     font-size: 1.25em;
     letter-spacing: 0.1em;
     font-weight: bolder;
-    width: 200px;
+    width: 150px;
     border-radius: 10px;
     background-color: transparent;
-    border: 3px solid black;
+    border: 2px solid black;
+    box-shadow: 1px 1px black;
     color: black;
     font-family: 'Lusitana', serif;
+}
+
+.resume-link {
+    color: black;
+    width: 200px;
+}
+
+.header-button:hover {
+    background-color: navy;
+    color: white;
+    border: 3px solid black;
+    box-shadow: none;
+}
+
+.resume-link:hover {
+    color: white;
+    text-decoration: none;
 }
 
 .subheader-text {
@@ -269,7 +287,7 @@ a:active {
       }
   }
 
-  @media screen and (max-width: 666px) {
+  @media screen and (max-width: 645px) {
     .subbrand-text {
         text-decoration: underline;
         margin-bottom: 4%;
@@ -298,7 +316,7 @@ a:active {
     }
   }
 
-  @media screen and (max-width: 835px) {
+  @media screen and (max-width: 880px) {
     .header-custom {
         justify-content: center;
       }

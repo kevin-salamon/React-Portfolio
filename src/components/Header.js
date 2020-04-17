@@ -20,6 +20,7 @@ function Header() {
         <Link to="/portfolio" className="link-box">
           <button className="header-button">Portfolio</button>
         </Link>
+        <button className="header-button" style={{marginLeft: "1%", marginRight: "1%"}}><a href="https://drive.google.com/file/d/1niEa9_C3oyVmBvWqKNhap_BSnZ3bUiXI/view?usp=sharing" className="resume-link" target="#">My Resume</a></button>
     </nav>
   );
 };

@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import Project from "./components/Project";
-import Footer from "./components/Footer";
 
 function Portfolio() {
     return (  
@@ -65,7 +64,6 @@ function Portfolio() {
           deployed={"https://secret-fjord-12452.herokuapp.com/"}
         />
         </div>
-      <Footer/>
       </>
     );
 }
