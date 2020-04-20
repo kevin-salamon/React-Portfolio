@@ -9,7 +9,7 @@ function App() {
       <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
     </div>
 
-    <div className="container rounded" style={{backgroundColor: "white"}}>
+    <div className="container rounded" style={{backgroundColor: "white", color: "black"}}>
     <div className="row">
       <div className="col-sm-12 text-center intro-index">
         An up-and-coming Full-Stack Web Developer
@@ -41,7 +41,7 @@ function App() {
     <div className="container">
       <div className="row">
         <div className="col-sm-12 footer-main text-center" style={{marginTop:"2%"}}>
-          Contact Me
+          Contact
         </div>
       </div>
       <div className="row footer-sub">
