@@ -225,6 +225,36 @@ a:active {
     margin: 1000px;
 }
 
+.skills-container {
+    width: 100%;
+    border: 1px solid black
+}
+
+.skill-area-title {
+    padding: 3%;
+}
+
+.skills-section-flex {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.skill-box-title {
+    padding: 3%;
+    border: 1px solid black;
+}
+
+.skill-box {
+    margin-left: 3%;
+    font-size: 20px;
+    padding: 3%;
+    border: 1px solid black;
+}
+
 
   @media screen and (min-width: 578px) {
 
