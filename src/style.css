@@ -110,13 +110,33 @@ a:active {
 }
 
 .jumbotron-portfolio {
-    color: black;
+    color: white;
     font-family: 'Roboto Mono', monospace;
     text-shadow: 1px 1px gray;
     border: 3px solid black;
     margin: 3%;
-    background-color: white;
     height: 100%;
+}
+
+.project-flex-container {
+    display: flex;
+    width: 700px;
+    height: 500px;
+    margin: 2%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 5%;
+    border-radius: 7px;
+}
+
+.project-header {
+
+}
+
+.project-text {
+    text-align: center;
 }
 
 .split-image {
@@ -214,11 +234,12 @@ a:active {
 }
 
 .flex-container {
+    padding-top: 1%;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: gray;
+    background-color: whitesmoke;
 }
 
 .bottom-margin {

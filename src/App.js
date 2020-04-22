@@ -2,6 +2,11 @@ import React from 'react';
 import './style.css';
 import Footer from "./components/Footer";
 
+//next:
+//1. continue fixing portfolio cards
+//2. header button to resume responsivity got messed up, fix that
+//3. finish skills section
+
 function App() {
   return (
     <>
