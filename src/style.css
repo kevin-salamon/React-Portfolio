@@ -231,7 +231,12 @@ a:active {
 }
 
 .skill-area-title {
-    padding: 3%;
+    padding-left: 3%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.025em;
+    display: flex;
+    align-items: center;
+    font-size: 3.3em;
 }
 
 .skills-section-flex {
@@ -246,6 +251,7 @@ a:active {
 .skill-box-title {
     padding: 3%;
     border: 1px solid black;
+
 }
 
 .skill-box {

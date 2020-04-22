@@ -38,8 +38,10 @@ function App() {
         </div>
       </div>
     </div>
-    <div className="skills-container">
-      <h1 className="skill-area-title">Tools</h1>
+    {/* <div className="skills-container">
+      <div className="skill-area-title">
+        <h1>Tools</h1>
+      </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
           <h1>Frontend</h1>
@@ -80,7 +82,7 @@ function App() {
           <h1>Handlebars.js</h1>
         </div>
       </div>
-    </div>
+    </div> */}
   <Footer />
   </>
   );
