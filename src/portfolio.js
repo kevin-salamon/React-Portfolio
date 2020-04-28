@@ -1,6 +1,5 @@
 import React from 'react';
 import './style.css';
-import Project from "./components/Project";
 import ProjectNew from "./components/ProjectNew";
 
 function Portfolio() {
