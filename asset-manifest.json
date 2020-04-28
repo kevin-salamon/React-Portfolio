@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.51a04a39.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.ced116e7.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.ced116e7.chunk.js.map",
+    "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bf13817d.js",
+    "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bf13817d.js.map",
+    "static/js/2.aaeaf343.chunk.js": "/React-Portfolio/static/js/2.aaeaf343.chunk.js",
+    "static/js/2.aaeaf343.chunk.js.map": "/React-Portfolio/static/js/2.aaeaf343.chunk.js.map",
+    "index.html": "/React-Portfolio/index.html",
+    "precache-manifest.2352ea9a286a42cc35586f5fd8d632da.js": "/React-Portfolio/precache-manifest.2352ea9a286a42cc35586f5fd8d632da.js",
+    "service-worker.js": "/React-Portfolio/service-worker.js",
+    "static/css/main.51a04a39.chunk.css.map": "/React-Portfolio/static/css/main.51a04a39.chunk.css.map",
+    "static/js/2.aaeaf343.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.aaeaf343.chunk.js.LICENSE.txt",
+    "static/media/gamefound.jpg": "/React-Portfolio/static/media/gamefound.7e15502d.jpg",
+    "static/media/momsite.png": "/React-Portfolio/static/media/momsite.73befd1b.png",
+    "static/media/style.css": "/React-Portfolio/static/media/prof2.53fb0ac3.jpg",
+    "static/media/profile.jpg": "/React-Portfolio/static/media/profile.a615ed4c.jpg",
+    "static/media/tablify.png": "/React-Portfolio/static/media/tablify.fd93b940.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bf13817d.js",
+    "static/js/2.aaeaf343.chunk.js",
+    "static/css/main.51a04a39.chunk.css",
+    "static/js/main.ced116e7.chunk.js"
+  ]
+}
