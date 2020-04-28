@@ -10,6 +10,7 @@ const routing = (
       <div>
         <Header />
         <Route exact path="/" component={App} />
+        <Route exact path="/React-Portfolio" component={App} />
         <Route exact path="/portfolio" component={Portfolio} />
       </div>
     </Router>
