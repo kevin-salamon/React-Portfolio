@@ -43,51 +43,55 @@ function App() {
         </div>
       </div>
     </div>
-    {/* <div className="skills-container">
+    <div className="skills-container">
       <div className="skill-area-title">
-        <h1>Tools</h1>
+        <h1>Skills and Tools</h1>
       </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
-          <h1>Frontend</h1>
+          <h1 className="skill-title-text">Front-end</h1>
         </div>
         <div className="skill-box">
           <h1>React.js</h1>
-          <h1>CSS/Bootstrap</h1>
+          <h1>Javascript</h1>
           <h1>Handlebars.js</h1>
         </div>
         <div className="skill-box">
           <h1>JQuery</h1>
-          <h1>CSS/Bootstrap</h1>
+          <h1>CSS3</h1>
           <h1>Handlebars.js</h1>
         </div>
         <div className="skill-box">
-          <h1>React.js</h1>
-          <h1>CSS/Bootstrap</h1>
-          <h1>Handlebars.js</h1>
+          <h1>Redux</h1>
+          <h1>Flexbox/Bootstrap</h1>
         </div>
       </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
-          <h1>Backend</h1>
+          <h1 className="skill-title-text">Back-end</h1>
         </div>
         <div className="skill-box">
-          <h1>React.js</h1>
-          <h1>CSS/Bootstrap</h1>
-          <h1>Handlebars.js</h1>
+          <h1>Node.js</h1>
+          <h1>Express.js</h1>
+          <h1>MongoDB / NoSQL</h1>
         </div>
         <div className="skill-box">
-          <h1>JQuery</h1>
-          <h1>CSS/Bootstrap</h1>
-          <h1>Handlebars.js</h1>
-        </div>
-        <div className="skill-box">
-          <h1>React.js</h1>
-          <h1>CSS/Bootstrap</h1>
-          <h1>Handlebars.js</h1>
+          <h1>MySQL</h1>
+          <h1>Sequelize.js</h1>
+          <h1>JSON</h1>
         </div>
       </div>
-    </div> */}
+      <div className="skills-section-flex">
+        <div className="skill-box-title">
+          <h1 className="skill-title-text text-center">Additional Skills</h1>
+        </div>
+        <div className="skill-box">
+          <h1>RESTful API</h1>
+          <h1>Git / GitHub</h1>
+          <h1>PWAs</h1>
+        </div>
+      </div>
+    </div>
   <Footer />
   </>
   );
