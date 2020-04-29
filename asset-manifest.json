@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e4b58484.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.15e96ab5.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.15e96ab5.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.b6551623.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.4c324e10.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.4c324e10.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bf13817d.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bf13817d.js.map",
     "static/js/2.50b8291f.chunk.js": "/React-Portfolio/static/js/2.50b8291f.chunk.js",
     "static/js/2.50b8291f.chunk.js.map": "/React-Portfolio/static/js/2.50b8291f.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.dd753d88afd02e0c94109a4396f11aaf.js": "/React-Portfolio/precache-manifest.dd753d88afd02e0c94109a4396f11aaf.js",
+    "precache-manifest.6459280d76f631929001a1c91215c172.js": "/React-Portfolio/precache-manifest.6459280d76f631929001a1c91215c172.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.e4b58484.chunk.css.map": "/React-Portfolio/static/css/main.e4b58484.chunk.css.map",
+    "static/css/main.b6551623.chunk.css.map": "/React-Portfolio/static/css/main.b6551623.chunk.css.map",
     "static/js/2.50b8291f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.50b8291f.chunk.js.LICENSE.txt",
     "static/media/gamefound.jpg": "/React-Portfolio/static/media/gamefound.7e15502d.jpg",
     "static/media/momsite.png": "/React-Portfolio/static/media/momsite.73befd1b.png",
@@ -22,7 +22,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf13817d.js",
     "static/js/2.50b8291f.chunk.js",
-    "static/css/main.e4b58484.chunk.css",
-    "static/js/main.15e96ab5.chunk.js"
+    "static/css/main.b6551623.chunk.css",
+    "static/js/main.4c324e10.chunk.js"
   ]
 }
