@@ -28,6 +28,7 @@ a:active {
     background-color: white;
     align-items: center;
     padding: 1%;
+    border-bottom: 1px solid black;
 }
 
 .brand-text {
@@ -72,21 +73,11 @@ a:active {
     font-family: 'Lusitana', serif;
 }
 
-.resume-link {
-    color: black;
-    width: 200px;
-}
-
 .header-button:hover {
     background-color: navy;
     color: white;
     border: 3px solid black;
     box-shadow: none;
-}
-
-.resume-link:hover {
-    color: white;
-    text-decoration: none;
 }
 
 .subheader-text {
@@ -147,14 +138,15 @@ a:active {
 }
 
 .sub-intro-index {
-    font-family: 'Permanent Marker', cursive;
-    font-size: 24px;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 0.01em;
+    font-size: 30px;
 }
 
 .sub-sub-intro-index {
-    font-size: 18px;
+    font-size: 19px;
     text-decoration: underline;
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Sriracha', cursive;
 }
 
 .section-text {
@@ -190,7 +182,7 @@ a:active {
 
 .content-text {
     font-weight: bold;
-    font-family: 'Sriracha', cursive;
+    font-family: 'Lusitana', serif;
 }
 
 .special-border {
@@ -235,7 +227,7 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    background-color: whitesmoke;
+    background-color: rgb(224, 224, 224);
 }
 
 .bottom-margin {
@@ -311,12 +303,20 @@ a:active {
         margin-top: 1%;
         margin-bottom: 1%;
     }
+
+    .header-custom {
+        padding-bottom: 2%;
+    }
 }
 
   @media screen and (max-width: 576px) {
       .center-small {
           text-align: center;
       }
+
+      .responsive-header {
+        padding-top: 100%;
+    }
   }
 
   @media screen and (max-width: 645px) {
@@ -375,11 +375,13 @@ a:active {
         text-align: center;
     }
 
-    .responsive-header {
-        padding-top: 25%;
-    }
-
     #jumbotron-main {
         height: 750px;
+    }
+  }
+
+  @media screen and (max-width: 1200px) and (min-width: 577px) {
+    .responsive-header {
+        padding-top: 25%;
     }
   }
