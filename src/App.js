@@ -49,16 +49,15 @@ function App() {
         <div className="skill-box">
           <h1>React.js</h1>
           <h1>Javascript</h1>
-          <h1>Handlebars.js</h1>
+          <h1>Redux</h1>
         </div>
         <div className="skill-box">
           <h1>JQuery</h1>
           <h1>CSS3</h1>
-          <h1>Handlebars.js</h1>
         </div>
         <div className="skill-box">
-          <h1>Redux</h1>
-          <h1>Flexbox/Bootstrap</h1>
+          <h1>Handlebars.js</h1>
+          <h1>Bootstrap/Flexbox</h1>
         </div>
       </div>
       <div className="skills-section-flex">
@@ -68,10 +67,12 @@ function App() {
         <div className="skill-box">
           <h1>Node.js</h1>
           <h1>Express.js</h1>
-          <h1>MongoDB / NoSQL</h1>
         </div>
         <div className="skill-box">
+          <h1>MongoDB / NoSQL</h1>
           <h1>MySQL</h1>
+        </div>
+        <div className="skill-box">
           <h1>Sequelize.js</h1>
           <h1>JSON</h1>
         </div>
@@ -83,8 +84,12 @@ function App() {
         <div className="skill-box">
           <h1>RESTful API</h1>
           <h1>Git / GitHub</h1>
-          <h1>PWAs</h1>
         </div>
+        <div className="skill-box">
+          <h1>PWAs</h1>
+          <h1>VSCode</h1>
+        </div>
+        <div className="skill-box"></div>
       </div>
     </div>
   <Footer />
