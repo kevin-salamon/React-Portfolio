@@ -2,17 +2,12 @@ import React from 'react';
 import './style.css';
 import Footer from "./components/Footer";
 
-//next:
-//1. continue fixing portfolio cards
-//2. header button to resume responsivity got messed up, fix that
-//3. finish skills section
-
 function App() {
   return (
     <>
     <div className="jumbotron" id="jumbotron-main">
       <h1 className="display-4 responsive-header" style={{textAlign: "center"}}>Kevin Scott Salamon</h1>
-      <p className="lead" alt="family-pic" style={{textAlign: "center"}}>welcome to my portfolio</p>
+      <p className="lead" alt="family-pic" style={{textAlign: "center", textShadow: "1px 2px black"}}>web developer</p>
     </div>
 
     <div className="container rounded" style={{backgroundColor: "white", color: "black"}}>
@@ -49,7 +44,7 @@ function App() {
       </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
-          <h1 className="skill-title-text">Front-end</h1>
+          <h1>Front-end</h1>
         </div>
         <div className="skill-box">
           <h1>React.js</h1>
@@ -68,7 +63,7 @@ function App() {
       </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
-          <h1 className="skill-title-text">Back-end</h1>
+          <h1>Back-end</h1>
         </div>
         <div className="skill-box">
           <h1>Node.js</h1>
@@ -83,7 +78,7 @@ function App() {
       </div>
       <div className="skills-section-flex">
         <div className="skill-box-title">
-          <h1 className="skill-title-text text-center">Additional Skills</h1>
+          <h1 className="text-center">Additional Skills</h1>
         </div>
         <div className="skill-box">
           <h1>RESTful API</h1>

@@ -63,14 +63,13 @@ a:active {
     font-family: cursive;
     font-size: 1.25em;
     letter-spacing: 0.1em;
-    font-weight: bolder;
     width: 150px;
-    border-radius: 10px;
+    border-radius: 4px;
     background-color: transparent;
     border: 2px solid black;
     box-shadow: 1px 1px black;
     color: black;
-    font-family: 'Lusitana', serif;
+    font-family: 'Bebas Neue', cursive;
 }
 
 .header-button:hover {
@@ -94,6 +93,8 @@ a:active {
     color: white;
     font-family: 'Roboto Mono', monospace;
     text-shadow: 3px 3px black;
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
 }
 
 .responsive-header {
@@ -133,8 +134,9 @@ a:active {
 }
 
 .intro-index {
-    font-family: 'Permanent Marker', cursive;
+    font-family: 'Lusitana', serif;
     font-size: 36px;
+    font-weight: bold;
 }
 
 .sub-intro-index {
@@ -194,8 +196,8 @@ a:active {
     background-color: rgb(49, 49, 49);
     width: 100%;
     color: white;
-    padding-top: 2%;
-    padding-bottom: 5%;
+    padding-top: 1%;
+    padding-bottom: 4%;
     border-top: 1px solid rgb(199, 199, 199);
 }
 
@@ -236,16 +238,18 @@ a:active {
 
 .skills-container {
     width: 100%;
-    border: 1px solid black
+    padding-top: 50px;
+    border-top: 5px solid black
 }
 
 .skill-area-title {
-    padding-left: 1%;
-    font-family: 'Bebas Neue', cursive;
-    letter-spacing: 0.025em;
+    padding-left: 1.5%;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 0.050em;
     display: flex;
     align-items: center;
     font-size: 3.3em;
+    font-weight: bold;
 }
 
 .skills-section-flex {
@@ -263,9 +267,10 @@ a:active {
     display: flex; 
     align-items: center;
     justify-content: center;
+    font-family: 'Varela Round', sans-serif;
 }
 
-.skill-title-text {
+.skill-box-title h1 {
     font-size: 2em;
     border: 1px solid black;
 }
@@ -275,6 +280,11 @@ a:active {
     font-size: 20px;
     padding: 3%;
     border: 1px solid black;
+}
+
+.skill-box h1 {
+    margin: 5%;
+    font-size: 1.5em;
 }
 
 
