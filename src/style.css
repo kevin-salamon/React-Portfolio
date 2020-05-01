@@ -237,12 +237,13 @@ a:active {
 
 .skills-container {
     width: 100%;
-    padding-top: 50px;
+    padding-top: 30px;
+    padding-bottom: 60px;
     border-top: 5px solid black;
     background: linear-gradient(
         rgba(0, 0, 0, 0.55),
         rgba(0, 0, 0, 0.55)
-      ), url("assets/images/mountains2.jpg") no-repeat center center fixed;
+      ), url("assets/images/mountains2.jpg") center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -270,12 +271,12 @@ a:active {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    border: 1px solid black;
+    border-top: 3px solid white;
+    border-bottom: 2px solid white;
     padding: 5px;
 }
 
 .skill-box-title {
-    border: 1px solid black;
     width: 200px;
     display: flex; 
     align-items: center;
@@ -292,10 +293,14 @@ a:active {
     width: 250px;
     margin-left: 2%;
     padding: 2%;
-    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .skill-box h1 {
+    margin-left: auto;
+    margin-right: auto;
     font-size: 1.2em;
     margin-top: 10%;
     margin-bottom: 10%;
@@ -330,7 +335,11 @@ a:active {
 
   }
 
-  @media screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
+    .skills-section-flex {
+        border: 1px solid white;
+    }
+
     .header-button {
         width: 300px;
         margin-top: 1%;
@@ -339,6 +348,17 @@ a:active {
 
     .header-custom {
         padding-bottom: 2%;
+    }
+}
+
+@media screen and (max-width: 1065px) {
+    .skill-box-title {
+        margin: 0%;
+    }
+
+    .skill-box {
+        margin: 0%;
+        margin-left: 0%;
     }
 }
 
