@@ -7,7 +7,7 @@ function App() {
     <>
     <div className="jumbotron" id="jumbotron-main">
       <h1 className="display-4 responsive-header" style={{textAlign: "center"}}>Kevin Scott Salamon</h1>
-      <p className="lead" alt="family-pic" style={{textAlign: "center", textShadow: "1px 2px black"}}>web developer</p>
+      <p className="lead" alt="family-pic" style={{textAlign: "center", textShadow: "1px 2px black", fontSize: "1.5em"}}>web developer</p>
     </div>
 
     <div className="container rounded" style={{backgroundColor: "white", color: "black"}}>
