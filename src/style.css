@@ -237,18 +237,15 @@ a:active {
 
 .skills-container {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 60px;
+    padding-top: 50px;
+    padding-bottom: 80px;
     border-top: 5px solid black;
-    background: linear-gradient(
-        rgba(0, 0, 0, 0.55),
-        rgba(0, 0, 0, 0.55)
-      ), url("assets/images/mountains2.jpg") center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    color: white;
+    background-color: whitesmoke;
+    outline: 0;
+    outline-color: initial;
+    outline-style: initial;
+    outline-width: 0px;
+    color: black;
 }
 
 .skill-area-title {
@@ -263,6 +260,7 @@ a:active {
     font-size: 2.7em;
     letter-spacing: 0.1em;
     font-family: 'Lusitana', serif;
+    text-shadow: 2px 2px silver;
 }
 
 .skills-section-flex {
@@ -272,8 +270,9 @@ a:active {
     flex-wrap: wrap;
     justify-content: center;
     border-top: 3px solid white;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid silver;
     padding: 5px;
+    background-color: white;
 }
 
 .skill-box-title {
@@ -282,6 +281,7 @@ a:active {
     align-items: center;
     justify-content: center;
     margin-right: 4%;
+    text-shadow: 1px 1px silver;
 }
 
 .skill-box-title h1 {
@@ -305,7 +305,6 @@ a:active {
     margin-top: 10%;
     margin-bottom: 10%;
     font-family: 'Lusitana', serif;
-    color: white;
 }
 
 

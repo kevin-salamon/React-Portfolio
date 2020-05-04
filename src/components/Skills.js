@@ -8,7 +8,7 @@ function Skills() {
             <div className="skill-area-title">
                 <h1>Skills and Tools</h1>
             </div>
-            <div className="skills-section-flex" style={{borderTop: "4px solid white"}}>
+            <div className="skills-section-flex" style={{borderTop: "3px solid silver"}}>
                 <div className="skill-box-title">
                     <h1>Front-end</h1>
                 </div>
@@ -42,7 +42,7 @@ function Skills() {
                     <h1>JSON</h1>
                 </div>
                 </div>
-            <div className="skills-section-flex" style={{borderBottom: "4px solid white"}}>
+            <div className="skills-section-flex" style={{borderBottom: "3px solid silver"}}>
                 <div className="skill-box-title">
                     <h1 className="text-center">Additional Skills</h1>
                 </div>
