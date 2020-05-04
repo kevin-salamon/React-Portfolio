@@ -124,6 +124,7 @@ a:active {
 .project-text {
     text-align: center;
     font-family: 'Roboto Slab', serif;
+    font-size: 1.1em;
 }
 
 .project-link {

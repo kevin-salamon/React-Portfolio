@@ -14,7 +14,7 @@ function Portfolio() {
           deployed={"https://devpost.com/software/voca"}
         />
         <ProjectNew 
-          background={require("./assets/images/tablify.png")}
+          background={require("./assets/images/table.png")}
           name={"Tablify"}
           desc={"A simple, streamlined, and user-friendly web application that allows restaurant owners and staff to build their custom restaurant layout from scratch, assign customers to tables, and track those customers' meals from start to finish. Uses the MERN stack."}
           github={"https://github.com/kimiadarden/Tablify"}

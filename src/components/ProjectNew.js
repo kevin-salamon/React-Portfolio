@@ -5,8 +5,8 @@ function ProjectNew(props) {
 
     return (
         <div className="project-flex-container" style={{background: `linear-gradient(
-            rgba(0, 0, 0, 0.60),
-            rgba(0, 0, 0, 0.60)
+            rgba(0, 0, 0, 0.55),
+            rgba(0, 0, 0, 0.55)
           ), url(${props.background})`}}>
             <h1 className="project-header">{props.name}</h1>
             <p className="project-text">{props.desc}</p>
