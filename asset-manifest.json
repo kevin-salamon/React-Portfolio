@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.ad31ec6d.chunk.css",
-    "main.js": "/React-Portfolio/static/js/main.b890ac0d.chunk.js",
-    "main.js.map": "/React-Portfolio/static/js/main.b890ac0d.chunk.js.map",
+    "main.css": "/React-Portfolio/static/css/main.61726b9a.chunk.css",
+    "main.js": "/React-Portfolio/static/js/main.328c43a1.chunk.js",
+    "main.js.map": "/React-Portfolio/static/js/main.328c43a1.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bf13817d.js",
     "runtime-main.js.map": "/React-Portfolio/static/js/runtime-main.bf13817d.js.map",
     "static/js/2.50b8291f.chunk.js": "/React-Portfolio/static/js/2.50b8291f.chunk.js",
     "static/js/2.50b8291f.chunk.js.map": "/React-Portfolio/static/js/2.50b8291f.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.62e503c21a1b8b85def6338a762560aa.js": "/React-Portfolio/precache-manifest.62e503c21a1b8b85def6338a762560aa.js",
+    "precache-manifest.77dad2069281f273ea248add06bea6c8.js": "/React-Portfolio/precache-manifest.77dad2069281f273ea248add06bea6c8.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.ad31ec6d.chunk.css.map": "/React-Portfolio/static/css/main.ad31ec6d.chunk.css.map",
+    "static/css/main.61726b9a.chunk.css.map": "/React-Portfolio/static/css/main.61726b9a.chunk.css.map",
     "static/js/2.50b8291f.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.50b8291f.chunk.js.LICENSE.txt",
     "static/media/gamefound.jpg": "/React-Portfolio/static/media/gamefound.7e15502d.jpg",
     "static/media/momsite.png": "/React-Portfolio/static/media/momsite.73befd1b.png",
     "static/media/style.css": "/React-Portfolio/static/media/prof2.53fb0ac3.jpg",
-    "static/media/profile.jpg": "/React-Portfolio/static/media/profile.a615ed4c.jpg",
+    "static/media/profile2.jpg": "/React-Portfolio/static/media/profile2.62668b65.jpg",
     "static/media/table.png": "/React-Portfolio/static/media/table.bde8586e.png",
     "static/media/voca.png": "/React-Portfolio/static/media/voca.a9270a69.png"
   },
   "entrypoints": [
     "static/js/runtime-main.bf13817d.js",
     "static/js/2.50b8291f.chunk.js",
-    "static/css/main.ad31ec6d.chunk.css",
-    "static/js/main.b890ac0d.chunk.js"
+    "static/css/main.61726b9a.chunk.css",
+    "static/js/main.328c43a1.chunk.js"
   ]
 }
