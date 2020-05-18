@@ -25,8 +25,8 @@ function App() {
             streamlined, functional, and modern web applications. Please see below for my full resume, and feel free to peruse my portfolio or reach out to me for more info.
           </p>
         </div>
-        <div className="col-sm-4 text-right">
-          <img src={require("./assets/images/profile.jpg")} className="align-self-center mt-5 mb-1 mr-2 ml-2 rounded-pill image-large hide-small" alt={"profile"} />
+        <div className="col-sm-4 text-right" style={{display: "flex", justifyContent: "center"}}>
+          <img src={require("./assets/images/profile2.jpg")} className="align-self-center mt-5 mb-1 mr-2 ml-2 rounded-pill image-large hide-small" alt={"profile"} />
         </div>
         <div className="col-sm-4 center-small" style={{paddingLeft:"5%", marginBottom:"30px"}}>
           <p className="mt-5 sub-intro-index">MY INFO</p>
