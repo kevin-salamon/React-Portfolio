@@ -25,7 +25,7 @@ function Portfolio() {
           name={"Journalism Portfolio"}
           desc={"A personal web design for Maureen Salamon, health writer and journalist."}
           github={"https://github.com/kevin-salamon/Maureen-Portfolio"}
-          deployed={"https://maureen-portfolio.herokuapp.com/"}
+          deployed={"http://maureensalamon.com/"}
         />
         <ProjectNew
           background={require("./assets/images/gamefound.jpg")}
