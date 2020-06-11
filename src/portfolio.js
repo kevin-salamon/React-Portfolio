@@ -34,6 +34,13 @@ function Portfolio() {
           github={"https://github.com/kevin-salamon/Game-Found"}
           deployed={"https://kevin-salamon.github.io/Game-Found/"}
         />
+        <ProjectNew
+          background={require("./assets/images/cinami.jpg")}
+          name={"CinAmi"}
+          desc={"A MERN-stack movie review app that allows the user and their friends to add, review, and comment on each film. Supports JSON Web Token login and authentication."}
+          github={"https://github.com/kevin-salamon/CinAmi"}
+          deployed={"https://cinami.herokuapp.com/"}
+        />
         </div>
       </>
     );
