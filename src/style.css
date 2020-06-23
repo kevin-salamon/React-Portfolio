@@ -65,16 +65,16 @@ a:active {
     letter-spacing: 0.1em;
     width: 150px;
     border-radius: 4px;
-    background-color: transparent;
+    background-color: navy;
     border: 2px solid black;
     box-shadow: 1px 1px black;
-    color: black;
+    color: white;
     font-family: 'Bebas Neue', cursive;
 }
 
 .header-button:hover {
-    background-color: navy;
-    color: white;
+    background-color: transparent;
+    color: black;
     border: 3px solid black;
     box-shadow: none;
 }
