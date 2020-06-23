@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Portfolio/static/css/main.e2209efa.chunk.css",
+    "main.css": "/React-Portfolio/static/css/main.27caf9af.chunk.css",
     "main.js": "/React-Portfolio/static/js/main.1feaf1f0.chunk.js",
     "main.js.map": "/React-Portfolio/static/js/main.1feaf1f0.chunk.js.map",
     "runtime-main.js": "/React-Portfolio/static/js/runtime-main.bf13817d.js",
@@ -8,9 +8,9 @@
     "static/js/2.af0ca441.chunk.js": "/React-Portfolio/static/js/2.af0ca441.chunk.js",
     "static/js/2.af0ca441.chunk.js.map": "/React-Portfolio/static/js/2.af0ca441.chunk.js.map",
     "index.html": "/React-Portfolio/index.html",
-    "precache-manifest.2b57e1587e397cd1c9b48fda6f902fa3.js": "/React-Portfolio/precache-manifest.2b57e1587e397cd1c9b48fda6f902fa3.js",
+    "precache-manifest.ba4a1df8ab9cf59e87d026ab81578e5b.js": "/React-Portfolio/precache-manifest.ba4a1df8ab9cf59e87d026ab81578e5b.js",
     "service-worker.js": "/React-Portfolio/service-worker.js",
-    "static/css/main.e2209efa.chunk.css.map": "/React-Portfolio/static/css/main.e2209efa.chunk.css.map",
+    "static/css/main.27caf9af.chunk.css.map": "/React-Portfolio/static/css/main.27caf9af.chunk.css.map",
     "static/js/2.af0ca441.chunk.js.LICENSE.txt": "/React-Portfolio/static/js/2.af0ca441.chunk.js.LICENSE.txt",
     "static/media/cinami.jpg": "/React-Portfolio/static/media/cinami.ea7571b3.jpg",
     "static/media/gamefound.jpg": "/React-Portfolio/static/media/gamefound.7e15502d.jpg",
@@ -23,7 +23,7 @@
   "entrypoints": [
     "static/js/runtime-main.bf13817d.js",
     "static/js/2.af0ca441.chunk.js",
-    "static/css/main.e2209efa.chunk.css",
+    "static/css/main.27caf9af.chunk.css",
     "static/js/main.1feaf1f0.chunk.js"
   ]
 }
